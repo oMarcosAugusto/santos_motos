@@ -1,0 +1,69 @@
+.carousel {
+  position: relative;
+  width: 100%;
+  height: 60%; /* Defina uma altura fixa para o carrossel */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-color: #f0f0f0; /* Adicione um fundo para garantir visibilidade caso a imagem não ocupe todo o espaço */
+}
+
+.carousel__image-container {
+  width: 100%;
+  height: 100%;
+}
+
+.carousel__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Garante que a imagem cubra todo o contêiner mantendo a proporção */
+}
+
+.carousel__button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 1;
+  opacity: 0; /* Torna os botões invisíveis */
+  transition: opacity 0.3s ease; /* Transição suave para a visibilidade */
+}
+
+.carousel__button--left {
+  left: 10px;
+}
+
+.carousel__button--right {
+  right: 10px;
+}
+
+.carousel:hover .carousel__button {
+  opacity: 1; /* Torna os botões visíveis ao passar o mouse sobre o carrossel */
+}
+
+.carousel__indicators {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 5px;
+}
+
+.carousel__indicator {
+  width: 5px;
+  height: 5px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.carousel__indicator.active {
+  background-color: white;
+}

@@ -1,0 +1,28 @@
+.carousel-wrapper {
+  max-width: 1200px;
+  margin: 10px auto;
+}
+
+.carousel .carousel-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px; /* Altura fixa */
+}
+
+.carousel .carousel-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.legend {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}

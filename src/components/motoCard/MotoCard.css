@@ -1,0 +1,78 @@
+.container_cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px; /* Espaçamento entre os cards */
+  padding: 10px; /* Espaçamento interno do container */
+}
+
+.info_new {
+  width: 100%; /* Garante que ocupe toda a largura */
+  text-align: center; /* Centraliza o texto */
+  margin-bottom: 10px; /* Margem inferior para separar dos cards */
+}
+
+.info_new h1 {
+  font-size: 1.5rem; /* Tamanho da fonte do título */
+  font-weight: bold; /* Negrito para destacar o título */
+}
+
+.card {
+  flex: 1 1 calc(25% - 16px); /* Ajuste para exibir 4 cards por linha */
+  box-sizing: border-box;
+  background: #fff; /* Fundo branco para os cards */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve para os cards */
+  border-radius: 8px; /* Borda arredondada */
+  overflow: hidden; /* Oculta o excesso de conteúdo que ultrapassa os limites do card */
+  transition: transform 0.3s ease; /* Animação suave ao passar o mouse */
+  padding: 10px; /* Espaçamento interno do card */
+}
+
+.card:hover {
+  transform: scale(1.05); /* Aumenta ligeiramente o card ao passar o mouse */
+}
+
+.list_info {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0; /* Margem superior de 10px */
+  font-family: sans-serif;
+}
+
+.info_preco {
+  margin-bottom: 5px; /* Espaço inferior de 5px */
+  font-weight: bold; /* Texto em negrito para o preço */
+}
+
+.info_ano_km {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info_ano {
+  margin-right: auto; /* Espaço à direita para empurrar o info_km para a direita */
+}
+
+.info_km {
+  text-align: right; /* Alinha o texto à direita */
+}
+
+.btn-container {
+  text-align: center; /* Centraliza o botão horizontalmente */
+  padding: 10px;
+  padding-bottom: 0px;
+}
+
+.btn {
+  padding: 10px 20px; /* Espaçamento interno do botão */
+  background-color: #007bff; /* Cor de fundo do botão */
+  color: white; /* Cor do texto do botão */
+  border: none; /* Remove a borda do botão */
+  border-radius: 4px; /* Borda arredondada */
+  cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+  transition: background-color 0.3s ease; /* Transição suave para a cor de fundo */
+}
+
+.btn:hover {
+  background-color: #0056b3; /* Cor de fundo ao passar o mouse */
+}

@@ -1,5 +1,4 @@
 .carousel-wrapper {
-  max-width: 1200px;
   margin: 10px auto;
 }
 
@@ -7,7 +6,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 400px; /* Altura fixa */
+  height: 600px; /* Altura fixa */
 }
 
 .carousel .carousel-slide img {

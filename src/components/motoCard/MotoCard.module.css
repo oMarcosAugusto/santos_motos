@@ -17,7 +17,7 @@
 }
 
 .card {
-  flex: 1 1 calc(25% - 16px); /* Ajuste para exibir 4 cards por linha */
+  flex: 1 1 calc(33.33% - 16px); /* Ajuste para exibir 3 cards por linha */
   box-sizing: border-box;
   background: #fff; /* Fundo branco para os cards */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve para os cards */

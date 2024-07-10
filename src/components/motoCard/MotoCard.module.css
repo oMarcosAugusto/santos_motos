@@ -41,6 +41,7 @@
 .info_preco {
   margin-bottom: 5px; /* Espaço inferior de 5px */
   font-weight: bold; /* Texto em negrito para o preço */
+  padding-top: 10px;
 }
 
 .info_ano_km {
@@ -50,17 +51,17 @@
 }
 
 .info_ano {
-  margin-right: auto; /* Espaço à direita para empurrar o info_km para a direita */
+  margin-right: auto;
+  /* Espaço à direita para empurrar o info_km para a direita */
 }
 
 .info_km {
   text-align: right; /* Alinha o texto à direita */
 }
 
-.btn-container {
+.btnContainer {
+  margin-top: 10px;
   text-align: center; /* Centraliza o botão horizontalmente */
-  padding: 10px;
-  padding-bottom: 0px;
 }
 
 .btn {

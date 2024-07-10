@@ -2,7 +2,6 @@
 .header {
   max-width: auto;
   margin: auto auto;
-
   display: flex;
   justify-content: space-between;
   align-items: center;

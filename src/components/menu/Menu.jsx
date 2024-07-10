@@ -1,13 +1,13 @@
 import React from "react";
-import "./Menu.css";
+import style from "./Menu.module.css";
 
 const Menu = () => {
   return (
-    <header className="header">
-      <div className="logo">
+    <header className={style.header}>
+      <div className={style.logo}>
         <img src="src\assets\logo.jfif" alt="Logo" />
       </div>
-      <nav className="nav">
+      <nav className={style.nav}>
         <ul>
           <li>
             <a href="#home">HOME</a>

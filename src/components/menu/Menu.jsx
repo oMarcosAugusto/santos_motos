@@ -16,11 +16,12 @@ const Menu = () => {
             <a href="contact">MOTOS</a>
           </li>
           <li>
-            <a href="about">SOBRE NÓS</a>
-          </li>
-          <li>
             <a href="contact">NOVIDADES</a>
           </li>
+          <li>
+            <a href="about">SOBRE NÓS</a>
+          </li>
+
           <li>
             <a href="contact">CONTATO</a>
           </li>
